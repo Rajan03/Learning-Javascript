@@ -30,12 +30,13 @@ class UI {
     <div id="repos"></div>
   `;
   }
+  //clear all profiles
   clearprofile() {
     this.profile.innerHTML = ``;
     return this.profile.innerHTML;
   }
 
-  // Show alert message
+  // alert message
   showAlert(message, className) {
     this.clearAlert();
     const div = document.createElement("div");
@@ -44,10 +45,11 @@ class UI {
     const container = document.querySelector(".searchContainer");
     const search = document.querySelector(".search");
     container.insertBefore(div, search);
-    // Timeout after 3 sec
+   
+    // Timeout 
     setTimeout(() => {
       this.clearAlert();
-    }, 2000);
+    }, 1000);
   }
   // Clear alert message
   clearAlert() {
@@ -57,7 +59,7 @@ class UI {
     }
   }
 
-  // Show user repos
+  // repos
   showRepos(repos) {
     let output = "";
 
@@ -78,7 +80,7 @@ class UI {
         `;
     });
 
-    // Output repos
+    // Output
     document.getElementById("repos").innerHTML = output;
   }
 }
