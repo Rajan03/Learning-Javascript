@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Github Account Finder</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary"
+      style="height: 10vh"
+    >
+      <a class="navbar-brand" href="#">GitHub Account Finder </a>
+    </nav>
+    <div class="container searchContainer">
+      <div
+        class="search card card-body"
+        style="font-family: 'Gill Sans', sans-serif"
+      >
+        <h1>Search User</h1>
+        <p class="lead">
+          Enter Username to get profile and repositories details
+        </p>
+        <input
+          type="text"
+          class="form-control"
+          id="searchUser"
+          placeholder="GitHub UserName"
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-light">
+      GitHub Account Finder &copy;
+    </footer>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
