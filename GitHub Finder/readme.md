@@ -1,7 +1,12 @@
 # GITHUB-FINDER
 
 This application is used to fetch github user profile with latest repos and other related information.
-![myImage]()
+
+## Screenshots
+
+![ScreenShot1](https://github.com/Rajan03/Javascript-projects/blob/main/GitHub%20Finder/imgs/ss1.jpg)
+
+![ScreenShot1](https://github.com/Rajan03/Javascript-projects/blob/main/GitHub%20Finder/imgs/Screenshot%202020-10-16%20124108.jpg)
 
 ## Technology Used
 * HTML
