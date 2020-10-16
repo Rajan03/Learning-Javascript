@@ -1,6 +1,7 @@
 # GITHUB-FINDER
 
 This application is used to fetch github user profile with latest repos and other related information.
+![myImage]()
 
 ## Technology Used
 * HTML
