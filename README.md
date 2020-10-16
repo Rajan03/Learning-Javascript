@@ -16,3 +16,10 @@ Pig game is mainly a DOM Manipulation project in Vanilla Javascript. It is fun t
 
 ## 2. Github Account Finder
 This is a project for applying external API call to Github APIs to fetch data and disply in DOM. 
+
+### Basic Concepts 
+* AJAX HTTP request
+* Fetch API
+* Async/Await
+* ES6 Classes
+* API - Github API
