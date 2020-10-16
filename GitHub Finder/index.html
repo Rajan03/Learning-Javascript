@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub Finder</title>
+  </head>
+  <body>
+    <!--------------------- Navigation bar ----------------------->
+    <nav>
+      <div class="nav-wrapper">
+        <img class="logo" src="imgs/GitHub-Mark-64px.png" />
+        <a href="#!" class="brand-logo"> Github Finder</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#" class="search-area"
+              ><i class="material-icons left sign">search</i> Search User</a
+            >
+          </li>
+          <li>
+            <a href="#" class="repo-icon"
+              ><i class="material-icons left">view_module</i>Repositories</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!----------------------- Search box ------------------------->
+    <div class="container searchContainer">
+      <div class="search">
+        <h1>Search User</h1>
+        <p>Enter Username to get profile and repositories details</p>
+        <input
+          type="text"
+          class="form-control"
+          id="searchUser"
+          placeholder="GitHub UserName"
+        />
+      </div>
+      <br />
+    </div>
+
+    <!------------------------ Profile card ---------------------->
+    <div id="profile" class="card hoverable del"></div>
+
+    <!----------------------- Repository card ---------------------->
+    <div id="repos" class="card hoverable del"></div>
+
+    <!---------------------------- Footer --------------------------->
+    <div class="center bg-light">GitHub Account Finder &copy;</div>
+
+    <!-------------------------- javascript --------------------------->
+    <script src="github.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
