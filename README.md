@@ -1,4 +1,4 @@
-# Javascript-projects
+# -------------------  Javascript-projects  ---------------------------
 
 
 ## 1. The Pig Game 
