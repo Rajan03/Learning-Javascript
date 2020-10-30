@@ -1,0 +1,33 @@
+.container {
+  margin: 50px 0px;
+  padding: 50px 0px;
+  box-shadow: 0px 0px 4px #222;
+}
+.card {
+  border: none !important;
+}
+.list-group-item {
+  width: 50%;
+}
+.card-header {
+  background: none !important;
+  text-align: center;
+}
+.card-header h1 {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  color: #555555;
+  text-shadow: 3px 2px 1px #111111;
+}
+.success {
+  /* background-color: palegreen; */
+  color: #222;
+  width: 100%;
+}
+.fail {
+  background-color: red;
+  color: #ffffff;
+}
+svg {
+  cursor: pointer;
+}
